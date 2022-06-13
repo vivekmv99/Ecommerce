@@ -4,6 +4,6 @@ from . import views
 urlpatterns = [
     path('',views.gerRoutes, name="routes"),
     path('products/',views.getProducts, name="products"),
-    path('products/<str:pk>/',views.getProduct, name="product"),
+    path('products/<str:pk>/',views.getProduct, name="products"),
 
 ]
