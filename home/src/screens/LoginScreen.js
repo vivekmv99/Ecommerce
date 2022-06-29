@@ -53,7 +53,7 @@ function LoginScreen({  }) {
                 value={password} onChange={(e) => setPassword(e.target.value)}></Form.Control>
             </Form.Group> 
 
-            <Button type='submi' variant='primary'>Sing In</Button>
+            <Button type='submit' variant='primary'>Sing In</Button>
         </Form>
         
         <Row className='py-3'>
