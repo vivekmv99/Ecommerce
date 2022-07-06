@@ -27,7 +27,9 @@ function PaymentScreen() {
     }
 
   return (
+    <div>
     <FormContainer >
+        
         <CheckoutSteps step1 step2 step3/>
 
         <Form onSubmit={submitHandler}>
@@ -51,6 +53,7 @@ function PaymentScreen() {
             <Button type="submit" variant="primary">Continue</Button>
         </Form>
     </FormContainer>
+    </div>
   )
 }
 
